@@ -15,14 +15,14 @@
   <div class="carousel-item active">
     <img src="images/carrusel1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
     <div class="carousel-caption">
-         <h3>Eventos Familiares</h3>
+         <h3>Eventos Empresariales</h3>
          <p>We had such a great time in LA!</p>
      </div>
     </div>
   <div class="carousel-item">
     <img src="images/carrusel2.jpg" alt="Chicago" class="d-block" style="width:100%">
     <div class="carousel-caption">
-         <h3>Eventos Empresariales</h3>
+         <h3>Eventos Familiares</h3>
          <p>We had such a great time in LA!</p>
       </div>
     </div>
@@ -45,6 +45,9 @@
      </div>
 
   </div>
-
-<?php include "fotter.php" ?>
+ <?php $password="senderos88";?>
+<?php 
+$password=md5($password);
+echo $password;
+include "fotter.php" ?>
 
