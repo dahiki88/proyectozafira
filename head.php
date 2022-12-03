@@ -12,9 +12,7 @@
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
      </head>
-      
     <body>
-
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="javascript:void(0)">Logo</a>
@@ -32,9 +30,9 @@
                   Eventos
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Eventos Empresariales</a></li>
-                  <li><a class="dropdown-item" href="#">Eventos Familiares</a></li>
-                  <li><a class="dropdown-item" href="#">Eventos Tematicos</a></li>
+                  <li><a class="dropdown-item" href="eventosemp.php">Eventos Empresariales</a></li>
+                  <li><a class="dropdown-item" href="eventosfam.php">Eventos Familiares</a></li>
+                  <li><a class="dropdown-item" href="eventostem.php">Eventos Tematicos</a></li>
                 </ul>
             </div>
           </li>
@@ -45,9 +43,9 @@
             Planes
           </button>
           <ul class="dropdown-menu">
-         <li><a class="dropdown-item" href="#">Plan Zafira</a></li>
-         <li><a class="dropdown-item" href="#">Plan Arcoiris</a></li>
-         <li><a class="dropdown-item" href="#">Plan Tematico</a></li>
+         <li><a class="dropdown-item" href="planzafira.php">Plan Zafira</a></li>
+         <li><a class="dropdown-item" href="planarcoiris.php">Plan Arcoiris</a></li>
+         <li><a class="dropdown-item" href="plantematico.php">Plan Tematico</a></li>
        </ul>
      </div>
       </li>
@@ -66,6 +64,7 @@
         <input class="form-control me-2" type="text" placeholder="Buscar">
         <button class="btn btn-primary" type="button">Buscar</button>
          </form>
+          </button>
        </div>
      </div>
   </nav>

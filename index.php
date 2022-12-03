@@ -16,21 +16,21 @@
     <img src="images/carrusel1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
     <div class="carousel-caption">
          <h3>Eventos Empresariales</h3>
-         <p>We had such a great time in LA!</p>
+         <p>Todo lo ideal para tu Reunion</p>
      </div>
-    </div>
+</div>
   <div class="carousel-item">
     <img src="images/carrusel2.jpg" alt="Chicago" class="d-block" style="width:100%">
     <div class="carousel-caption">
          <h3>Eventos Familiares</h3>
-         <p>We had such a great time in LA!</p>
+         <p>Haremos tu fiesta realidad</p>
       </div>
     </div>
   <div class="carousel-item">
     <img src="images/carrusel3.jpg" alt="New York" class="d-block" style="width:100%">
     <div class="carousel-caption">
          <h3>Eventos Tematicos</h3>
-         <p>We had such a great time in LA!</p>
+         <p>Tu fantasia la puedes cumplir</p>
     </div>
   </div>
 </div>
@@ -45,9 +45,6 @@
      </div>
 
   </div>
- <?php $password="senderos88";?>
-<?php 
-$password=md5($password);
-echo $password;
-include "fotter.php" ?>
+ 
+<?php include "fotter.php" ?>
 
